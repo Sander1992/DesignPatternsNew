@@ -1,6 +1,6 @@
 package abstractfactory;
 
-public class UsaImagesImpl implements Images{
+class UsaImagesImpl implements Images{
 
 	@Override
 	public String getImagesCountry() {

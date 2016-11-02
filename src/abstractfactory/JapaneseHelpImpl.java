@@ -1,6 +1,6 @@
 package abstractfactory;
 
-public class JapaneseHelpImpl implements Help{
+class JapaneseHelpImpl implements Help{
 
 	@Override
 	public String getHelpCountry() {

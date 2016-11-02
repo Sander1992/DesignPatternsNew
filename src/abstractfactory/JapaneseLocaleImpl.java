@@ -1,6 +1,6 @@
 package abstractfactory;
 
-public class JapaneseLocaleImpl implements Locale{
+class JapaneseLocaleImpl implements Locale{
 
 	@Override
 	public String getLocaleCountry() {

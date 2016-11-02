@@ -1,5 +1,5 @@
 package abstractfactory;
 
-public interface Locale {
-	public String getLocaleCountry();
+interface Locale {
+	String getLocaleCountry();
 }

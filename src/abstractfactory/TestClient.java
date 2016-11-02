@@ -1,7 +1,7 @@
 package abstractfactory;
 
-public class TestClient {
-	public void run(String countryId){
+class TestClient {
+	void run(String countryId){
 		UIAbstractFactory uiFactory = null;
 		if(countryId.equals("JP"))
 			uiFactory = new JapaneseUIFactory();

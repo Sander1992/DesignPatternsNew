@@ -1,6 +1,6 @@
 package abstractfactory;
 
-public class JapaneseUIFactory implements UIAbstractFactory{
+class JapaneseUIFactory implements UIAbstractFactory{
 
 	@Override
 	public Help getHelp() {
