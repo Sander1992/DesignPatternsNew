@@ -10,19 +10,15 @@ class TestClient {
 		
 		if(uiFactory != null){
 			Help help = uiFactory.getHelp();
-			log("help created for: " + help.getHelpCountry());
+			System.out.println("help created for: " + help.getHelpCountry());
 			
 			Images images = uiFactory.getImages();
-			log("UI images created for: " + images.getImagesCountry());
+			System.out.println("UI images created for: " + images.getImagesCountry());
 			
 			Locale locale = uiFactory.getLocale();
-			log("UI locale created for: " + locale.getLocaleCountry());
+			System.out.println("UI locale created for: " + locale.getLocaleCountry());
 		}else{
-			log("Wrong country id");
+			System.out.println("Wrong country id");
 		}
-	}
-	
-	private void log(String msg){
-		System.out.println(msg);
 	}
 }
